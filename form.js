@@ -67,7 +67,8 @@ valid()
 isValid = true
 if(isFormValid){
     myForm.remove()
-   thankYou.classList.remove("thanks")
+   thankYou.classList.add("thanks")
+   thankYou.classList.remove("thankyou")
 }
 
 

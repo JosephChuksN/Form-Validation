@@ -90,10 +90,11 @@ input[type=checkbox], #chkbx{
     color: red;
     visibility: visible;
 }
-.thankss{
+.thanks{
     color: white;
     font-size: 2rem;
+    visibility: visible;
 }
-.thanks{
-    display: block;
+.thankyou{
+    display: none;
 }
