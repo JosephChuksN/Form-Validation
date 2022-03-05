@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" >
+        <form name="myform" id="forms" action="" >
+            <label class="main-inputs"  for="Firstname">Firstname</label><br>
+            <input class="main-input"  id="Fnames" type="text" placeholder="Firstname"><h4 class="errorMsg">This field is required</h4> <br>
+            <label class="main-inputs" for="Lastname">Lastname</label><br>
+            <input id="lastname" class="main-input"  type="text" placeholder="Lastname"><h4  class="errorMsg">This field is required</h4><br>
+            <label class="main-inputs"  for="Your Email">Your Email</label><br>
+            <input id="mail" class="main-input" type="email" placeholder="Your Email"><h4  class="errorMsg">This field is required</h4><br>
+            <label class="main-inputs" for="Password">Password</label><br>
+            <input class="main-input" type="password" id="pass" placeholder="Password" ><h4  class="errorMsg">This field is required</h4><br>
+            <label class="cn-pss" for="Confirm Password">Confirm Password</label><br>
+            <input class="main-input" type="password" id="cnfrmpass" placeholder="Confirm Password"><h4  class="errorMsg">This field is required</h4><br>
+            <input type="checkbox"><label id="chkbx" for="checkbox">Remember my password</label><br>
+            <button id="btnn">Submit</button>
+        </form>
+    </div>
+    <script src="form.js"></script>
+</body>
+</html>

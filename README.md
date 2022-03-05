@@ -1,2 +1,2 @@
-# form-validation
-A js. program to understand form validation
+# Form-Validation
+## A program to understand how forms work
